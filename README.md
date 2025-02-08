@@ -1,22 +1,17 @@
-# Language Translate
+# Descrição
+- Um script escrito em python, baseado em TUI, que traduz textos em diferentes idiomas.
+- O projeto utiliza uma biblioteca padrão do python, que consome APIs como DeepL, BingTranslated para realizar a tradução.  
 
-A simple script to help translate your text into different languages. 
+# Requisitos
+## Ambiente Virtual
+Antes de tudo, caso o seu SO seja linux, instale um o pacote `python-virtualenv`. Isso serve para quando o python instalar as dependências do projeto, não instalar junto com as dependências do sistema operacional.
 
-## Installation
-- Install Python if you already haven't.
-- Install all required dependencies by running ``pip install -r requirements.txt``.
-
-## Usage
+## Executando
+1. Clone esse repositório (tenha o `git` instalado no seu computador) 
+2. Entre na pasta do repositório clonado `cd Tradutor-De-Idiomas`
+3. Depois execute o projeto:   
 ```bash
-python3 language_translate.py
+python language_translate.py --from_lang TRADUZIR DE --to_lang PARA   
 ```
-
-```
-usage: language_translate.py [-h] [--from_lang FROM_LANG] [--to_lang TO_LANG]
-
-options:
-  -h, --help            show this help message and exit
-  --from_lang FROM_LANG
-                        Language to translate from.
-  --to_lang TO_LANG     Language to translate to. (defaults to English)
-```
+3.1 Substitua `TRADUZIR DE` pela sigla do idioma do texto que você vai inserir, pode ser `pt-br`. E susbstitua `PARA` pelo idioma que o texto deve ser traduzido, por exemplo `en` para english
+4. Dê enter e então vai aparecer um input para você inserir o texto, digite o texto que você quer que seja traduzido e depois espere a execução do script.
