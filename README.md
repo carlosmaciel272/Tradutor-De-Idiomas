@@ -18,4 +18,5 @@ pip install translated
 python language_translate.py --from_lang TRADUZIR DE --to_lang PARA   
 ```
 3.1 Substitua `TRADUZIR DE` pela sigla do idioma do texto que você vai inserir, pode ser `pt-br`. E susbstitua `PARA` pelo idioma que o texto deve ser traduzido, por exemplo `en` para english
+
 4. Dê enter e então vai aparecer um input para você inserir o texto, digite o texto que você quer que seja traduzido e depois espere a execução do script.
